@@ -553,3 +553,31 @@
 #         max_word = key
 #
 # print(f'Longest word in the sentence is "{max_word}" with length of "{max_length}" characters')
+
+
+# ================> Way 02 Using OOPS <==============================
+# class LongestWordFinder:
+#     def __init__(self, sentence):
+#         self.sentence = sentence
+#         self.word_lengths = {}
+#
+#     def generate_lengths(self):
+#         words = self.sentence.split()
+#         for word in words:
+#             self.word_lengths[word] = len(word)
+#
+#     def find_longest(self):
+#         max_word = ""
+#         max_length = 0
+#         for word, length in self.word_lengths.items():
+#             if length > max_length:
+#                 max_length = length
+#                 max_word = word
+#         print(f'Longest word in the sentence is "{max_word}" with length of "{max_length}" characters')
+#
+#
+# # Taking input and using the class
+# sentence = input("Enter the sentence: ")
+# obj = LongestWordFinder(sentence)
+# obj.generate_lengths()
+# obj.find_longest()
