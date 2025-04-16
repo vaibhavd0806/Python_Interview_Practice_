@@ -454,8 +454,17 @@
 
 # ================================================================
 # 13. Write a Python program using OOPS to take a list of integers from the user, remove the duplicates, and return the list in sorted order (ascending).
+# n = list(map(int, input("Enter the list of integers: ").split()))
+#
+# n.sort()  # Sorting the list first
+# output = [] # To store unique values
+#
+# for i in n: # Loop for adding unique elements
+#     if i not in output:
+#         output.append(i)
+# print("Sorted list without duplicates:", output)
 
-n = list(map(int,input("Enter the list of interger: ").split()))
-print(n)
+
+
 
 
