@@ -469,23 +469,41 @@
 
 
 # ===============> Way 2 Using OOPS <=======================
-class remove_duplicate:
-    def __init__(self, n):
-        self.n = n
+# class remove_duplicate:
+#     def __init__(self, n):
+#         self.n = n  # Assign the list to the instance variable 'n'
+#
+#     def generate(self):
+#         output = []  # To store unique values
+#         for i in self.n:  # Loop for adding unique elements
+#             if i not in output:
+#                 output.append(i)
+#         print("Sorted list without duplicates:", output)
+#
+# # Take user input and create a list of integers
+# n = list(map(int, input("Enter the series of numbers: ").split()))
+#
+# # Sort the list
+# n.sort()  # Sorting the list in place
+#
+# # Create an object and pass the sorted list to the constructor
+# obj = remove_duplicate(n)
+# obj.generate()  # Calling the generate method to display the result
 
-    def generate(self):
-        output = []  # To store unique values
-        for i in self.n:  # Loop for adding unique elements
-            if i not in output:
-                output.append(i)
-        print("Sorted list without duplicates:", output)
 
-# Take user input and create a list of integers
-n = list(map(int, input("Enter the series of numbers: ").split()))
+# ============================================================================
+# Q14. Find the intersection of two lists (common elements between two lists).
 
-# Sort the list
-n.sort()  # Sorting the list in place
-
-# Create an object and pass the sorted list to the constructor
-obj = remove_duplicate(n)
-obj.generate()  # Calling the generate method to display the result
+# l1 = list(map(int,input("Enter the element for list 1: ").split()))
+# l2 = list(map(int,input("Enter the element for list 2: ").split()))
+# l3 = []
+#
+# # for i in l1:
+# #     if i in l2:
+# #         l3.append(i)
+# #     else:
+# #         pass
+#
+# # [l3.append(i) for i in l1 if i in l2]   # Using list comprehension
+#
+# print(f'Intersect element are: {l3}')
