@@ -39,6 +39,6 @@ This repository contains a collection of Python programs written by **Vaibhav Dh
 
 ## 📌 How to Run
 
-Simply run the `interview_practice.py` file and follow the prompts in your terminal:
+Simply run the `coding_Practice.py` file and follow the prompts in your terminal:
 ```bash
-python interview_practice.py
+python coding_Practice.py
