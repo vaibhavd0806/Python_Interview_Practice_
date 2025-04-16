@@ -2,6 +2,11 @@
 
 This repository contains a collection of Python programs written by **Vaibhav Dhotre** as part of his interview preparation. The code is focused on logical and basic programming questions commonly asked in interviews by companies like **TCS, Infosys, Cognizant, Wipro**, etc.
 
+### ✍️ Author  
+**Vaibhav Dhotre**  
+Python & SQL Learner | Power BI Enthusiast  
+Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
+
 ---
 
 ## 🧠 Topics Covered
@@ -44,9 +49,5 @@ Simply run the `coding_Practice.py` file and follow the prompts in your terminal
 python coding_Practice.py
 
 
-✍️ Author
-Vaibhav Dhotre
-Python & SQL Learner | Power BI Enthusiast
-Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 
 
