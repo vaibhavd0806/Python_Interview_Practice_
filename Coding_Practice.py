@@ -531,4 +531,25 @@
 
 
 # ====================================================================
-# Q15.
+# # Q15. Write a program to find the longest word in a given sentence.
+
+# ==============> Way 01 without using OOPS <=========================
+# sentence = input("Enter the sentence: ")
+#
+# # sentence.split() turns "I love programming" into ["I", "love", "programming"].
+# words = sentence.split()  # splits by spaces by default
+# word_lengths = {}
+#
+# for word in words:  # Loop for itereting the words
+#     word_lengths[word] = len(word)
+#
+# #logic for extracting the maximum word lenght
+#
+# max_word =""
+# max_length = 0
+# for key,value in word_lengths.items():
+#     if value > max_length:
+#         max_length = value
+#         max_word = key
+#
+# print(f'Longest word in the sentence is "{max_word}" with length of "{max_length}" characters')
