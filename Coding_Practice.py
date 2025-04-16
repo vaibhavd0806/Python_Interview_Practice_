@@ -497,13 +497,38 @@
 # l1 = list(map(int,input("Enter the element for list 1: ").split()))
 # l2 = list(map(int,input("Enter the element for list 2: ").split()))
 # l3 = []
-#
-# # for i in l1:
-# #     if i in l2:
-# #         l3.append(i)
-# #     else:
-# #         pass
-#
-# # [l3.append(i) for i in l1 if i in l2]   # Using list comprehension
-#
+
+# for i in l1:
+#     if i in l2:
+#         l3.append(i)
+#     else:
+#         pass
+
+# [l3.append(i) for i in l1 if i in l2]   # Using list comprehension
+
 # print(f'Intersect element are: {l3}')
+
+
+# =================> Using OOPS <===============================
+# class Intersect:
+#     def __init__(self, l1, l2):
+#         self.l1 = l1
+#         self.l2 = l2
+#
+#     def find(self):
+#         l3 = []
+#         return [i for i in self.l1 if i in self.l2]
+#
+# # Taking input for the lists
+# list1 = list(map(int, input("Enter elements for list 1: ").split()))
+# list2 = list(map(int, input("Enter elements for list 2: ").split()))
+#
+# # Creating an object of Intersect
+# obj = Intersect(list1, list2)
+#
+# # Finding intersection and printing the result
+# print(f'Intersecting elements are: {obj.find()}')
+
+
+# ====================================================================
+# Q15.
