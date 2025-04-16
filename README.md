@@ -42,3 +42,9 @@ This repository contains a collection of Python programs written by **Vaibhav Dh
 Simply run the `coding_Practice.py` file and follow the prompts in your terminal:
 ```bash
 python coding_Practice.py
+
+
+✍️ Author
+Vaibhav Dhotre
+Python & SQL Learner | Power BI Enthusiast
+LinkedIn Profile : www.linkedin.com/in/vaibhavd08
