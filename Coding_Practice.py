@@ -468,8 +468,23 @@
 # print("Sorted list without duplicates:", output)
 
 
+# ===============> Way 2 Using OOPS <=======================
+class remove_duplicate:
+    def __init__(self,list):
+        self.l = list
 
+    def generate(self):
+        output = []  # To store unique values
 
+        for i in n:  # Loop for adding unique elements
+            if i not in output:
+                output.append(i)
+        print("Sorted list without duplicates:", output)
 
+#        # Enter the series of the number: 34 45 23 43 54 67 54 44 56 55 34 34 67 12 21 55 34
+#        # Sorted list without duplicates: [12, 21, 23, 34, 43, 44, 45, 54, 55, 56, 67]
 
-
+n = list(map(int,input("Enter the series of the number: ").split()))
+list = n.sort()
+obj = remove_duplicate(list)
+obj.generate()
