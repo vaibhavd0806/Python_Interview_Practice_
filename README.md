@@ -47,4 +47,5 @@ python coding_Practice.py
 ✍️ Author
 Vaibhav Dhotre
 Python & SQL Learner | Power BI Enthusiast
-LinkedIn Profile : www.linkedin.com/in/vaibhavd08
+[LinkedIn](https://www.linkedin.com/in/vaibhavd08 "Visit my LinkedIn profile")
+
