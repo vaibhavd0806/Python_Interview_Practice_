@@ -581,3 +581,25 @@
 # obj = LongestWordFinder(sentence)
 # obj.generate_lengths()
 # obj.find_longest()
+
+
+# ====================================================================
+# Q16. Write a Python program to check if two strings are anagrams of each other.
+
+ # Two strings are anagrams if they contain the same characters in the same frequency, but possibly in a different order.
+ # Example: "listen" and "silent" are anagrams.
+
+# ================> Way 01 Simple logic <======================================
+# s1,s2 = map(str,input("Enter both string:").split())
+# count = 0
+# if len(s1) != len(s2):
+#     print("It is not anagram")
+# else:
+#     if sorted(s1) == sorted(s2):
+#         print("It is anagram")
+
+#  aab is not anagram with abb because frequency of the char also matter where that is not the same in this case even though the characters and the length of the both string are matching
+# So frequency matters.
+
+
+
