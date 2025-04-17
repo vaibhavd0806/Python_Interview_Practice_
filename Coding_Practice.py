@@ -601,5 +601,38 @@
 #  aab is not anagram with abb because frequency of the char also matter where that is not the same in this case even though the characters and the length of the both string are matching
 # So frequency matters.
 
+# s1, s2 = map(str, input("Enter both strings in one line with space between them: ").split())
+# s1 = s1.lower()
+# s2 = s2.lower()
+#
+# # logic for calculating the frequency of each char of string s1
+# f1 = {}
+# for ch in s1:
+#     if ch in f1:
+#         f1[ch] += 1
+#     else:
+#         f1[ch] = 1
+#
+# # logic for calculating the frequency of each char of string s2
+# f2 = {}
+# for ch in s2:
+#     if ch in f2:
+#         f2[ch] += 1
+#     else:
+#         f2[ch] = 1
+#
+# # print(f1)
+# # print(f2)
+#
+# # Now checking whether both the dictionaries matching
+# if f1 == f2:
+#     print("Given strings are anagram")
+# else:
+#     print("Given strings are not anagram")
+
+
+
+
+
 
 
