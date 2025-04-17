@@ -28,10 +28,7 @@ Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 16. 💬 **Write a Python program to check if two strings are anagrams of each other.**
 17. 📚 **Count frequency of each digit in a number.**
 ---
-## 📌 How to Run
-Simply run the `coding_Practice.py` file and follow the prompts in your terminal:
-```bash
-python coding_Practice.py
+
 
 
 
