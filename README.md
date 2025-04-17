@@ -8,42 +8,27 @@ Python & SQL Learner | Power BI Enthusiast
 Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 
 ---
-
-## 🧠 Topics Covered
-
-### 🔹 Basic Python Programs
-- Factorial using `for` loop and recursion
-- Vowel counter using loops and conditions
-- Using `map`, `lambda`, and `ternary` operators
-- Finding max of multiple values using different methods
-
-### 🔹 Object-Oriented Programming (OOP)
-- Character frequency counter class
-- Remove duplicates from a list using class
-- Find intersection of two lists (OOP + basic)
-- Longest word in a sentence using a class with two methods
-
-### 🔹 List, Dictionary, and String Operations
-- List intersection using loops
-- Remove duplicates using conditionals
-- Append word and its length to a dictionary
-- Extract the longest word from a sentence using key-value logic
+## 🧠 Questions Covered
+---
+1. 📝 **What is __init__ in python?**
+2. 🧹 **What is difference between array and list?**
+3. 🔗 **What is slicing?**
+4. 🔢 **What is break, continue and pass in Python?**
+5. ⚖️ **How is class is created in the python?**
+6. 🔠 **Print fibonacci series of n elements**
+7. 🔢 **Check Palindrome**
+8. 🏆 **Check Armstrong Number**
+9. 🔀 **Swapping two numbers without using third variable and a,b = b,a and No tuple unpacking shortcut**
+10. 🔄 **Find Factorial**
+11. 🔁 **Write a Python program to count the number of vowels in a string?**
+12. 📚 **Count the frequency of each character in a string**
+13. 🔍 **Write a Python program using OOPS to take a list of integers from the user, remove the duplicates, and return the list in sorted order (ascending).**
+14. 🔢 **Find the intersection of two lists (common elements between two lists).**
+15. 🔄 **Write a program to find the longest word in a given sentence.**
+16. 💬 **Write a Python program to check if two strings are anagrams of each other.**
 
 ---
-
-## 🧰 Concepts Practiced
-
-- `for` and `while` loops
-- Conditional logic with `if`, `else`, `elif`
-- `input()` and `map()` for user input
-- Working with strings, lists, and dictionaries
-- Writing and using classes and methods in Python
-- Clean and readable logic building
-
----
-
 ## 📌 How to Run
-
 Simply run the `coding_Practice.py` file and follow the prompts in your terminal:
 ```bash
 python coding_Practice.py
