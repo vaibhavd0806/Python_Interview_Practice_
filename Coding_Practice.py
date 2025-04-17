@@ -385,7 +385,7 @@
 # print("Factorial is:", factorial(num))
 
 
-# 11. Can you write a Python program to count the number of vowels in a string?
+# 11. write a Python program to count the number of vowels in a string?
 
 # ===============> Way 01 : Using simple for loop <======================
 # l = input("Enter the string: ")
@@ -601,6 +601,8 @@
 #  aab is not anagram with abb because frequency of the char also matter where that is not the same in this case even though the characters and the length of the both string are matching
 # So frequency matters.
 
+# ================> Way 02 Moderate logic <======================================
+
 # s1, s2 = map(str, input("Enter both strings in one line with space between them: ").split())
 # s1 = s1.lower()
 # s2 = s2.lower()
@@ -631,8 +633,43 @@
 #     print("Given strings are not anagram")
 
 
+#================================================================
+# Q17. Count frequency of each digit in a number.
 
+# ===================> Way 01 using traditional logic
+#
+# num = int(input("Enter the number: "))
+# freq= {}
+#
+# for digit in str(num):
+#     if digit in freq:
+#         freq[digit] += 1
+#     else:
+#         freq[digit] = 1
+#
+# print("\n🔢 Digit Frequency: ")
+# for k,v in freq.items():
+#     print(f'Frequency of digit "{k}" is {v}')
 
+# =================> Way 02 Using OOPS <==========================
 
-
-
+# class frequencyofdigits:
+#
+#     def __init__(self,num):
+#         self.num = num
+#
+#     def generate(self):
+#         freq = {}
+#         for digit in str(num):
+#             if digit in freq:
+#                 freq[digit] += 1
+#             else:
+#                 freq[digit] = 1
+#
+#         print("\n🔢 Digit Frequency: ")
+#         for k, v in freq.items():
+#             print(f'Frequency of digit "{k}" is {v}')
+#
+# num = int(input("Enter the number: "))
+# s1 = frequencyofdigits(num)
+# s1.generate()
