@@ -673,3 +673,5 @@
 # num = int(input("Enter the number: "))
 # s1 = frequencyofdigits(num)
 # s1.generate()
+
+#
