@@ -26,6 +26,7 @@ Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 14. 🔢 **Find the intersection of two lists (common elements between two lists).**
 15. 🔄 **Write a program to find the longest word in a given sentence.**
 16. 💬 **Write a Python program to check if two strings are anagrams of each other.**
+17. 🔢 **Count frequency of each digit in a number.**
 
 ---
 ## 📌 How to Run
