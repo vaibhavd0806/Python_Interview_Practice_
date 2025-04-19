@@ -27,6 +27,7 @@ Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 15. 🔄 **Write a program to find the longest word in a given sentence.**
 16. 💬 **Write a Python program to check if two strings are anagrams of each other.**
 17. 📚 **Count frequency of each digit in a number.**
+18. 🔄 **Write a function that reverses a string. The input string is given as an array of characters s.**
 ---
 
 
