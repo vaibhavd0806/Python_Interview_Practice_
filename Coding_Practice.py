@@ -686,20 +686,75 @@
  # Input: s = ["H","a","n","n","a","h"]
  # Output: ["h","a","n","n","a","H"]
 
-# ======================= Way 01 using simple logic =================================
-class Solution(object):
-    def reverseString(self, s):
-        # Initialize two pointers: 'l' at the start, 'm' at the end of the list
-        l = 0
-        m = len(s) - 1
+# ======================= Way 01 =================================
+# class Solution:
+#     def reverseString(self, s):
+#         # Initialize two pointers: 'l' at the start, 'm' at the end of the list
+#         l = 0
+#         m = len(s) - 1
+#
+#         # Loop until the two pointers meet in the middle
+#         while l < m:
+#             # Swap the characters at positions l and m
+#             s[l], s[m] = s[m], s[l]
+#
+#             # Move the left pointer to the right
+#             l += 1
+#
+#             # Move the right pointer to the left
+#             m -= 1
 
-        # Loop until the two pointers meet in the middle
-        while l < m:
-            # Swap the characters at positions l and m
-            s[l], s[m] = s[m], s[l]
+# s = input("Enter the string: ")
+# obj = Solution(s)
+# obj.reverseString()
 
-            # Move the left pointer to the right
-            l += 1
 
-            # Move the right pointer to the left
-            m -= 1
+# ===================================================================
+#  Q19. Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+ # Example 1:
+ # Input: s = "leetcode"
+ # Output: 0
+
+ # Explanation:
+ # The character 'l' at index 0 is the first character that does not occur at any other index.
+
+ # Example 2:
+ # Input: s = "loveleetcode"
+ # Output: 2
+
+ # Example 3:
+ # Input: s = "aabb"
+ # Output: -1
+
+# =========================> Way 01 <==============================
+#
+#  class Solution(object):
+#      def firstUniqChar(self, s):
+#          # Initialize an empty dictionary to store the frequency of characters
+#          freq = {}
+#
+#          # Iterate through each character in the string
+#          for ch in s:
+#              # If the character is already in the dictionary, increment its count
+#              if ch in freq:
+#                  freq[ch] += 1
+#              # If the character is not in the dictionary, set its count to 1
+#              else:
+#                  freq[ch] = 1
+#
+#          # Iterate through the string again to find the first unique character
+#          for i in range(len(s)):
+#              # If the frequency of the character is 1, return its index
+#              if freq[s[i]] == 1:
+#                  return i
+#
+#          # If no unique character is found, return -1
+#          return -1
+#
+# s = input("Enter the string: ")
+# obj = Solution()
+# obj.firstUniqChar()
+
+
+
+
