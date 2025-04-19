@@ -675,4 +675,31 @@
 # s1.generate()
 
 #====================================================
-# Q18. GG
+# Q18.Write a function that reverses a string. The input string is given as an array of characters s.
+ # You must do this by modifying the input array in-place with O(1) extra memory.
+
+ # Example 1:
+ # Input: s = ["h","e","l","l","o"]
+ # Output: ["o","l","l","e","h"]
+
+ # Example 2:
+ # Input: s = ["H","a","n","n","a","h"]
+ # Output: ["h","a","n","n","a","H"]
+
+# ======================= Way 01 using simple logic =================================
+class Solution(object):
+    def reverseString(self, s):
+        # Initialize two pointers: 'l' at the start, 'm' at the end of the list
+        l = 0
+        m = len(s) - 1
+
+        # Loop until the two pointers meet in the middle
+        while l < m:
+            # Swap the characters at positions l and m
+            s[l], s[m] = s[m], s[l]
+
+            # Move the left pointer to the right
+            l += 1
+
+            # Move the right pointer to the left
+            m -= 1
