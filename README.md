@@ -29,6 +29,7 @@ Visit my LinkedIn profile: [LinkedIn](https://www.linkedin.com/in/vaibhavd08/)
 17. 📚 **Count frequency of each digit in a number.**
 18. 🔄 **Write a function that reverses a string. The input string is given as an array of characters s.**
 19. 📚 **Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.**
+20. 📚 **Decrypt the circular array based on a given integer k, summing the next or previous k elements for each index.**
 ---
 
 
